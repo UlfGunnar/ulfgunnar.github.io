@@ -146,12 +146,10 @@ ul {
     list-style: none;
     text-align: left;
 }
-
 .container {
     display: flex;
     
 }
-
 .container li::before {
     content: "🗸";
     margin-right: 5px;
