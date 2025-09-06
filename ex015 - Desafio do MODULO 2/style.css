@@ -134,7 +134,12 @@ button:hover {
     background-color: #5bfc7679;
     color: black;
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 iframe {
     padding-top: 18px;
     width: 75vw;
