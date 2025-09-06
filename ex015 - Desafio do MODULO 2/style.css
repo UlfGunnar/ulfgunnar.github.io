@@ -24,7 +24,7 @@ main {
     margin: 0 auto;
     background-color: white;
     max-width: 1200px;
-    width: 90%;
+    width: 85vw;
     padding: 1px 10px 0px;
     margin-top: 16px;
     margin-bottom: 40px;
@@ -147,8 +147,7 @@ ul {
     text-align: left;
 }
 .container {
-    display: flex;
-    
+    display: flex;   
 }
 .container li::before {
     content: "🗸";
