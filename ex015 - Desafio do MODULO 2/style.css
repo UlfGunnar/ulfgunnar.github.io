@@ -11,12 +11,13 @@ body {
     background-color: #5bfc76;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 header {
     background-image: linear-gradient(360deg, #1e7a2d, #2ea842, #3dff5d, #5bfc76);
-    margin: -16px -8px;
-    padding: 5px;
+    padding: 10px;
     color: white;
 }
 
@@ -34,8 +35,7 @@ main {
 
 footer {
     background-color: #1e7a2d;
-    margin: -21px -8px;
-    padding: 0.02px 0px;
+    padding: 5px;
 }
 
 footer > p {
@@ -48,7 +48,7 @@ article#espaçamento {
 }
 
 nav {
-    margin: 0px 0px -5px -5px;
+    margin: 0;
     text-align: left;
 }
 
