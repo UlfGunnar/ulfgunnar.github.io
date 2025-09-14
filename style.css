@@ -1,3 +1,50 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    text-align: center;
+    background-color: lightgray;
+    display: flex; 
+    flex-direction: column; /* Cola os containers */
+}
+header {
+    background: linear-gradient(90deg, #392bff80, #2b60ff80, #2ba3ff8c, #2be6ff7c, #2bffd17c);
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto; /* centraliza horizontalmente */
+    margin-top: 50px;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    margin: 0 auto;
+}
+main > p {
+    margin: 0px 20px 0px 20px;
+}
+footer {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center; /* Vertical */
+    background-color: black;
+    color: white;
+    width: 500px;
+    padding: 10px;
+    height: 20px;
+    margin: 0 auto;
+}
+a { 
+    text-decoration: none;
+    color: #392bff;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: #2bffd1;
+}
