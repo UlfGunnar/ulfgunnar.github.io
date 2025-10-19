@@ -1,5 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body {
     text-align: center;
@@ -8,50 +10,83 @@ body {
     flex-direction: column; /* Cola os containers */
 }
 header {
+    display: flex;
     background: linear-gradient(90deg, #392bff80, #2b60ff80, #2ba3ff8c, #2be6ff7c, #2bffd17c);
-    width: 500px;
-    padding: 10px;
+    width: 100vw;
+    height: 70px;
     margin: 0 auto; /* centraliza horizontalmente */
-    border-radius: 20px 20px 0px 0px;
-    margin-top: 50px;
+    align-items: center;
     font-weight: bold;
+    font-size: 20px;
 }
 header > p {
-    margin-bottom: 10px;
+    margin: 0px 30px;
+}
+header > p:first-of-type {
+    margin-left: auto;
+}
+header > p > a {
+    color: black;
+}
+header > p > a:hover {
+    background-color: #392bff83;
+    color: white;
+    padding: 13px;
+    transition: all 0.3s ease;
 }
 main {
-    background-color: white;
-    width: 500px;
-    padding: 10px;
-    margin: 0 auto;
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   background-color: white;
+   width: 35vw;
+   padding: 20px 50px;
+   border: 1px black solid;
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+   margin-top: 75px;
+   flex-direction: column;
+}
+section#inicio {
+    margin-bottom: 30px;
+    color: white;
+}
+main > section > h1 {
+    font-size: 30px;
+}
+h1#azul {
+    color: #392bff;
+    margin-bottom: 20px;
+}
+img.ulf {
+    margin: 30px;
+    border-radius: 50%;
+    border: 1px #0000007a solid;
+}
+main > section > p {
+
+    margin: 0px 20px 0px 20px;
+}
+p.tit {
+    font-weight: bold;
 }
 footer {
     display: flex;
     justify-content: center; /* Horizontal */
     align-items: center; /* Vertical */
-    background-color: black;
-    color: white;
-    width: 500px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 0px 0px 20px 20px;
-    margin: 0 auto;
-}
-h2 {
-    margin-bottom: 10px;
-}
-p {
-    margin: 0px;
 }
 a { 
     text-decoration: none;
     color: #392bff;
     font-weight: bold;
 }
-a:hover {
+main > a:hover {
     text-decoration: underline;
     color: #2bffd1;
 }
-.ult {
-    margin-bottom: 19px;
+#proj {
+    display: flex;
+}
+.proj {
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
 }
