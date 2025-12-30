@@ -7,45 +7,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <p><a href="#inicio">inicio</a></p>
-        <p><a href="#projetos">Projetos</a></p>
-        <p><a href="#contatos">Contatos</a></p>
-    </header>
     <main>
         <section id="#inicio">
             <h1>Olá, eu sou </h1>
             <h1 id="azul">Ulf Gunnar :)</h1>
             <p>Estudante de Desenvolvimento de Sistemmas</p>
             <picture>
-                <source media="(min-width: 750px)" srcset="Imagens/Foto_ulf_M.png" class="ulf">
+                <source media="(min-width: 1200px)" srcset="Imagens/Foto_ulf_M.png" class="ulf">
                 <img src="Imagens/Foto_ulf_P.png" alt="Foto do Ulf" class="ulf">
             </picture>
         </section>
         <section>
             <h2>Meus projetos:</h2>
             <div id="proj">
-                <a href="Android/Android.html" target="_blank" class="proj">
-                    <abbr title="Historia do Mascote Android">
-                        <picture>
-                            <source media="(min-width: 1100px)" srcset="Imagens/android_M.PNG" class="proj1">
-                            <img src="Imagens/android_P.PNG" alt="">
-                        </picture>
-                    </abbr>
-                </a>
-                <a href="Cordel/Cordel.html" target="_blank" class="proj">
-                    <abbr title="Poemas do Cordel">
-                        <picture>
-                            <source media="(min-width: 1100px)" srcset="Imagens/cordel_M.PNG" class="proj2">
-                            <img src="Imagens/cordel_P.PNG" alt="">
-                        </picture>
-                    </abbr>
-                </a>
+                <div>
+                    <a href="Android/Android.html" target="_blank" >
+                        <abbr title="Historia do Mascote Android">
+                            <img src="Imagens/android_P.PNG" alt="" class="proj">
+                        </abbr>
+                    </a>
+                    <a href="Cordel/Cordel.html" target="_blank">
+                        <abbr title="Poemas do Cordel">
+                            <img src="Imagens/cordel_P.PNG" alt="" class="proj">
+                        </abbr>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/UlfGunnar/Projeto-Senai-1-4/tree/main/PROJETO_SA%201%20de%204" target="_blank">
+                        <abbr title="Cadastro de eventos">
+                            <img src="Imagens/eventos_P.png" alt="" class="proj">
+                        </abbr>
+                    </a>
+                    <a href="Redes socias/index.html" target="_blank">
+                        <abbr title="Redes So">                  
+                            <img src="Imagens/Social_P.PNG" alt="" class="proj">
+                        </abbr>
+                    </a>
+                </div>
             </div>
         </section>
+        <section>
+            <h2 id="tittop">Meus conhecimentos:</h2>
+            <ul>
+                <li>Python 🐍 (visto no curso)</li>
+                <li>SQL 🏛️🎲 (estudando atualmente)</li>
+                <li>HTML5/CSS3 🔗 (estudando atualmente)</li>
+                <li>JavaScript 🌐 (não usando hoje em dia)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contatos:</h2>
+        </section>
     </main> 
-    <footer>
-        <p></p>
-    </footer>
 </body>
 </html>
